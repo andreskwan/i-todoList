@@ -14,9 +14,14 @@
 
 //dependency injection
 //what its dependencies are
-//ask for what you need rather than just go and take it. 
+//ask for what you need rather than just go and take it.
 @property (readonly, strong) NSFetchedResultsController *fetchedResultController;
 @property (readonly, strong) UITableView * tableView;
 @property (readonly, copy) NSString *reuseIdentifier;
+
+
+- (id)initWithTableView:(UITableView*)tableView
+withFetchedResultsController:(NSFetchedResultsController*)fetchedResultsController
+     andReuseIdentifier:(NSString*)reuseIdentifier;
 
 @end
