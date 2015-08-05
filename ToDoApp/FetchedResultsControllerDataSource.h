@@ -12,4 +12,8 @@
 
 @interface FetchedResultsControllerDataSource : NSObject <UITableViewDataSource, NSFetchedResultsControllerDelegate>
 
+@property (readonly, strong) NSFetchedResultsController *fetchedResultController;
+@property (readonly, strong) UITableView * tableView;
+
+
 @end
