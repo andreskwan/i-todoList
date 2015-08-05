@@ -16,6 +16,7 @@
 		EA6E33E51B7227CC0062EFAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6E33E41B7227CC0062EFAB /* Images.xcassets */; };
 		EA6E33E81B7227CC0062EFAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6E33E61B7227CC0062EFAB /* LaunchScreen.xib */; };
 		EA6E33F41B7227CC0062EFAB /* ToDoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6E33F31B7227CC0062EFAB /* ToDoAppTests.m */; };
+		EA6E33FF1B722D2D0062EFAB /* FetchedResultsControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6E33FE1B722D2D0062EFAB /* FetchedResultsControllerDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		EA6E33ED1B7227CC0062EFAB /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6E33F21B7227CC0062EFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6E33F31B7227CC0062EFAB /* ToDoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoAppTests.m; sourceTree = "<group>"; };
+		EA6E33FD1B722D2D0062EFAB /* FetchedResultsControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchedResultsControllerDataSource.h; sourceTree = "<group>"; };
+		EA6E33FE1B722D2D0062EFAB /* FetchedResultsControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchedResultsControllerDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 		EA6E33D01B7227CC0062EFAB /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				EA6E33FD1B722D2D0062EFAB /* FetchedResultsControllerDataSource.h */,
+				EA6E33FE1B722D2D0062EFAB /* FetchedResultsControllerDataSource.m */,
 				EA6E33D51B7227CC0062EFAB /* AppDelegate.h */,
 				EA6E33D61B7227CC0062EFAB /* AppDelegate.m */,
 				EA6E33DB1B7227CC0062EFAB /* MasterViewController.h */,
@@ -232,6 +237,7 @@
 				EA6E33D71B7227CC0062EFAB /* AppDelegate.m in Sources */,
 				EA6E33DA1B7227CC0062EFAB /* ToDoApp.xcdatamodeld in Sources */,
 				EA6E33D41B7227CC0062EFAB /* main.m in Sources */,
+				EA6E33FF1B722D2D0062EFAB /* FetchedResultsControllerDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
